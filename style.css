@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-sizing: 0 0 10px white;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("img.jpg") no;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('img.jpg') no-repeat;
+    height: 800px;
+    width: 50%;
+    z-index: -1;
+    opacity: .4;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px white;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    font-size: 30px;
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0px;
+}
+btn{
+    padding: 10px 35px;
+    background-color: white;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: white;
+    font-weight: bold;
+}
+#about{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#heading{
+    height: 300px;
+    font-weight: bold;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 570px;
+    height: 500px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+#gallery{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: blue;
+    align-items: center;
+}
+#contact{
+    margin: 0;
+    padding: 0;
+
+} 
+#body{
+    background-color: #efefef;
+    font-family:sans-serif ;
+}
+.contact box 
+{
+    width: 500px;
+    background-color: #fff;
+    box-shadow:0 0 20px 0  #999 ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form
+{
+margin: 35px;
+
+}
+.input-field
+{
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn
+{
+    border-radius: 20px ;
+    color: #fff ;
+    padding: 10px ;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
